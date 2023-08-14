@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+/* Reset some default browser styles */
+
+.mobile-image {
+    background-image: url('http://getwallpapers.com/wallpaper/full/4/e/3/176106.jpg');
+    background-size: cover;
+    background-position: center center;
+    /* Center the background image */
+    background-repeat: no-repeat;
+    height: 60vh;
+    color: white;
+
+}
+
+.Travelling-tips-blogging {
+
+    color: #7f92b0;
+    padding-top: 80px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}
+
+.travelling-heading {
+    font-size: 50px;
+    font-weight: bold;
+    color: gainsboro;
+}
+
+
+.travelling-para {
+    font-size: 20px;
+    color: #7f92b0;
+}
+
+
+
+
+/* Default styles for large devices */
+
+
+
+.small-screen-image {
+    width: 80%;
+    margin-top: 40px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0f172a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Adjust this value if needed */
+}
+
+.medium-screen-image {
+    width: 40%;
+    margin-top: 40px;
+}
+
+
+
+.dd-icon {
+    height: 5vh;
+}
+
+/* --------------------------this is area for animated text---------------------------- */
+.typing-container {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+
+.animated-text {
+    font-weight: bold;
+    margin-top: 300px;
+    margin-left: 200px;
+    font-family: Georgia, serif;
+
+
+}
+
+/* Reset default link styles */
+a {
+    text-decoration: none;
+}
+
+.dd-Anvians {
+    font-size: 10px;
+    color: #ffffff;
+    font-family: Georgia, serif;
+    margin-bottom: -3px;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.dd-Anvians:hover {
+    text-decoration: none;
+}
+
+
+.animated-text {
+    font-size: 60px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* This property is crucial for the gradient effect */
+
+    color: transparent;
+    /* Make the original text transparent */
+    background-image: linear-gradient(to right, #2f8bbc, #30b3d7, #1275aa);
+    /* Replace with your desired gradient colors */
+}
+
+.cursor {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    height: 28px;
+    background-color: #000;
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+/*------------------------------------------------------------------------------  */
+
+
+.text-colors-navbar {
+    color: #ffffff !important;
+    margin-left: 15px;
+}
+
+.my-box {
+    --bg-color: #985353;
+    /* Base background color */
+    background-color: var(--bg-color);
+    position: relative;
+}
+
+/* Pseudo-element for cursor effect */
+.my-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    pointer-events: none;
+    transition: background-color 0.2s;
+    z-index: 2;
+    /* Change this value to a positive number */
+}
+
+
+
+/* Rest of your styles */
+/* Default styles for larger devices */
+
+
+/* Media query for small devices (up to 767px width) */
+
+
+/* Additional styles specific to small devices */
+
+
+
+.search-navbar {
+    width: 60% !important;
+    margin-left: 25px;
+    background-color: rgb(165, 195, 230);
+    border: 1px;
+}
+
+
+.bgrnd-dark {
+
+    background-size: cover;
+}
+
+
+.text-centers {
+    text-align: center;
+}
+
+/* styles.css */
+
+
+/* Main Heading */
+.Latest-blog-post-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #ffffff;
+
+
+}
+
+.no-underline {
+    text-decoration: none;
+    /* Remove underline by default */
+}
+
+.no-underline:hover {
+    text-decoration: none;
+    /* Remove underline on hover */
+}
+
+.image-humanoid-robot {
+    margin-top: 150px;
+    margin-right: 150px;
+}
+
+/* Featured Post */
+.featured-post {
+    font-size: 1.5rem;
+
+    margin-top: 150px;
+    color: rgb(166, 164, 164);
+}
+
+.dropdown-menu {
+    background-color: #333;
+
+}
+
+.dropdown-item {
+    color: #a18282 !important;
+}
+
+.phones-trending-heading {
+    font-weight: bold;
+    font-family: roboto;
+}
+
+.background-trending-texts {
+    background-color: transparent;
+}
+
+.featured article {
+    background-color: #f7f7f7;
+
+    border-radius: 10px;
+}
+
+.mobile-image {
+    position: relative;
+}
+
+.read-more {
+    margin-top: 10px;
+}
+
+/* Latest Blog Posts */
+.latest-blog-post {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+    margin-top: 25px;
+}
+
+/* best cards use it */
+.posts-cards-bigger-one {
+    margin-bottom: 20px;
+    margin: 10px;
+    border: 1px solid #222f43;
+    background-color: transparent;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 30px;
+    padding-bottom: -10px;
+    color: #7f92b0;
+    font-family: Noto Sans, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.image-containers-bigger-one {
+    height: 350px;
+    /* Set the desired height for the image container */
+    overflow: hidden;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* Hide any overflowing content */
+}
+
+.image-container {
+    height: 200px;
+    /* Set the desired height for the image container */
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* Hide any overflowing content */
+}
+
+.posts-cards {
+    margin-bottom: 20px;
+    margin: 10px;
+    border: 1px solid #222f43;
+    background-color: transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    color: #7f92b0;
+    font-family: Noto Sans, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.html-image-size {
+    width: 100%;
+    /* Ensure the image fills the container width */
+    /* Maintain aspect ratio */
+}
+
+/* cards for moving*/
+
+
+
+
+
+
+.posts-cards4 {
+    background-image: url("https://pixy.org/src/487/4870083.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+.mail-address-input {
+    width: 60% !important;
+    margin-left: 25px;
+    background-color: transparent !important;
+    border: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.suscriber-address-input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+
+}
+
+.suscriber-button {
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    /* One column for input, one for button */
+    gap: 10px;
+    /* Gap between input and button */
+    align-items: center;
+    /* Vertically center items */
+    justify-content: center;
+    /* Horizontally center items */
+}
+
+
+
+/* cards goes inside */
+
+
+
+
+
+
+.posts-cardsn {
+    /* Your card styles here */
+
+    background-color: #f5f5f5;
+
+    border-radius: 15px;
+    width: 200px;
+    height: 300px;
+
+
+
+
+}
+
+
+@media (max-width: 768px) {
+    .slider-container {
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .slider-track {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .col-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.bigger-shadow-container {
+    border-top: 1px solid #222f43;
+    border-bottom: 1px solid #222f43;
+    border-right: 1px solid #222f43;
+    background-color: #131c31;
+
+    margin-right: 80px;
+    box-shadow: var(--hover-bg-color);
+    padding-top: 40px;
+    padding-bottom: 0;
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    margin-left: -335px;
+
+
+}
+
+.icon-class{
+    text-decoration: none;
+    color: #7f92b0;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.shadow-card-goes-inside {
+
+    height: 100%;
+    color: #7f92b0;
+    padding-top: 40px;
+
+}
+
+.slidder-goes-inside-container {
+    width: 50%;
+    margin-right: -40px;
+    height: 100%;
+    flex-shrink: 0;
+    border: 1px solid #222f43;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+.slider-wrapper {
+    flex: 1;
+    display: flex;
+    padding: 0 20px;
+}
+
+.slider-container {
+    display: flex;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.slider-card {
+    flex: 0 0 auto;
+    transition: opacity 0.3s ease-in-out;
+    width: 260px;
+    /* Adjust card width as needed */
+    height: 400px;
+    /* Adjust card height as needed */
+    margin: 0 10px;
+    margin-bottom: -30px;
+    /* Adjust the margin to control spacing between slider cards */
+}
+
+
+
+.posts-cards img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.read-more {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main-main {
+    background-size: cover;
+}
+
+
+.my-box {
+    --bg-color: transparent;
+    /* Base background color */
+    background-color: var(--bg-color);
+    padding: 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+/* Change background color with gradient intensity on hover */
+.my-box:hover {
+    --hover-intensity: 30;
+    /* Adjust the hover intensity value */
+    --hover-bg-color: rgba(0, 0, 0, calc(var(--hover-intensity) * 0.01));
+    /* Intensity calculation */
+    background: linear-gradient(var(--hover-bg-color), var(--bg-color));
+}
+
+
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+}
+
+
+.mobile-phone-feature-heading {
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+.mobile-phone-feature-png {
+    margin-top: 150px;
+}
+
+.gradient-text {
+    font-size: 80px;
+    -webkit-background-clip: text;
+    /* For Safari */
+    background-clip: text;
+    /* This property is crucial for the gradient effect */
+    color: transparent;
+    /* Make the original text transparent */
+    background-image: linear-gradient(to right, #2f8bbc, #30b3d7, #1275aa);
+    /* Replace with your desired gradient colors */
+}
+
+.Anvians {
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+.text-before-Anvians {
+    font-size: 15px;
+}
+
+
+/* ------------------------Back to the top------------------- */
+.back-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3a4270;
+    color: #fff;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.arrow-up::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-135deg);
+    width: 15px;
+    height: 15px;
+    border: solid #222325;
+    border-width: 0 3px 3px 0;
+}
+
+/* Add hover effect */
+.back-to-top-button:hover {
+    background-color: #273647;
+}
+
+.text-color{
+    color: #ffffff;
+}

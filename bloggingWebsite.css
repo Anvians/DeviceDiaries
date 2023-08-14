@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+/* Reset some default browser styles */
+
+.mobile-image {
+    background-image: url('http://getwallpapers.com/wallpaper/full/4/e/3/176106.jpg');
+    background-size: cover;
+    background-position: center center;
+    /* Center the background image */
+    background-repeat: no-repeat;
+    height: 60vh;
+    color: white;
+
+}
+
+/* Default styles for large devices */
+
+
+
+.small-screen-image {
+    width: 80%;
+    margin-top: 40px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0f172a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Adjust this value if needed */
+}
+
+.medium-screen-image {
+    width: 40%;
+    margin-top: 20px;
+}
+
+.Latest-blog-post {}
+
+.dd-icon {
+    height: 5vh;
+}
+
+.text-colors-navbar {
+    color: #ffffff !important;
+    margin-left: 15px;
+}
+
+.my-box {
+    --bg-color: #985353;
+    /* Base background color */
+    background-color: var(--bg-color);
+    position: relative;
+}
+
+/* Pseudo-element for cursor effect */
+.my-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    pointer-events: none;
+    transition: background-color 0.2s;
+    z-index: 2;
+    /* Change this value to a positive number */
+}
+
+
+
+/* Rest of your styles */
+/* Default styles for larger devices */
+
+
+/* Media query for small devices (up to 767px width) */
+
+
+/* Additional styles specific to small devices */
+
+
+
+.search-navbar {
+    width: 60% !important;
+    margin-left: 25px;
+    background-color: rgb(165, 195, 230);
+    border: 1px;
+}
+
+
+.bgrnd-dark {
+    background-image: linear-gradient(#091124, #132356, #230c35, #17305b, #2d1339, #101e47, #070a33, #141928);
+    background-size: cover;
+}
+
+.margin-tops {
+    margin-top: 100px !important;
+    margin-bottom: -20px;
+}
+
+.text-centers {
+    text-align: center;
+}
+
+/* styles.css */
+
+.margin-top-need {
+    margin-top: 120px;
+}
+
+/* Main Heading */
+.Latest-blog-post-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+/* Featured Post */
+.featured-post {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: rgb(166, 164, 164);
+}
+
+.dropdown-menu {
+    background-color: #333;
+
+}
+
+.dropdown-item {
+    color: #a18282 !important;
+}
+
+.phones-trending-heading {
+    font-weight: bold;
+    font-family: roboto;
+}
+
+.background-trending-texts {
+    background-color: transparent;
+}
+
+.featured article {
+    background-color: #f7f7f7;
+
+    border-radius: 10px;
+}
+
+.mobile-image {
+    position: relative;
+}
+
+.read-more {
+    margin-top: 10px;
+}
+
+/* Latest Blog Posts */
+.latest-blog-post {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+    margin-top: 25px;
+}
+
+/* best cards use it */
+.posts-cards {
+    margin-bottom: 20px;
+    margin: 10px;
+    border: 1px solid #222f43;
+    background-color: rgb(13, 21, 45);
+    border-radius: 30px !important;
+    overflow: hidden;
+
+    color: #7f92b0;
+    font-family: Noto Sans, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.image-container {
+    height: 200px;
+    /* Set the desired height for the image container */
+    overflow: hidden;
+
+    /* Hide any overflowing content */
+}
+
+.html-image-size {
+    width: 100%;
+    /* Ensure the image fills the container width */
+    height: auto;
+    border-radius: 20px;
+    /* Maintain aspect ratio */
+}
+
+/* cards for moving*/
+
+.posts-cards-laptop-detail {
+
+    margin-bottom: 20px;
+    margin: 10px;
+
+
+    border-radius: 30px !important;
+    overflow: hidden;
+
+    color: #7f92b0;
+    font-family: Noto Sans, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px
+}
+
+
+
+
+
+.posts-cards4 {
+    background-image: url("https://pixy.org/src/487/4870083.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+.mail-address-input {
+    width: 60% !important;
+    margin-left: 25px;
+    background-color: transparent !important;
+    border: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.suscriber-address-input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+
+}
+
+.suscriber-button {
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    /* One column for input, one for button */
+    gap: 10px;
+    /* Gap between input and button */
+    align-items: center;
+    /* Vertically center items */
+    justify-content: center;
+    /* Horizontally center items */
+}
+
+
+
+/* cards goes inside */
+
+
+
+
+
+
+.posts-cardsn {
+    /* Your card styles here */
+
+    background-color: #f5f5f5;
+
+    border-radius: 15px;
+    width: 200px;
+    height: 300px;
+
+
+
+
+}
+
+
+@media (max-width: 768px) {
+    .slider-container {
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .slider-track {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .col-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.bigger-shadow-container {
+    border-top: 1px solid #222f43;
+    border-bottom: 1px solid #222f43;
+    border-right: 1px solid #222f43;
+    background-color: #131c31;
+
+    margin-right: 25px;
+    box-shadow: var(--hover-bg-color);
+    padding-top: 40px;
+    padding-bottom: 0;
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    margin-left: -335px;
+
+
+}
+
+.shadow-card-goes-inside {
+
+    height: 100%;
+    color: #7f92b0;
+    padding-top: 40px;
+
+}
+
+.slidder-goes-inside-container {
+    width: 50%;
+    margin-right: -40px;
+    height: 100%;
+    flex-shrink: 0;
+    border: 1px solid #222f43;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+.slider-wrapper {
+    flex: 1;
+    display: flex;
+    padding: 0 20px;
+}
+
+.slider-container {
+    display: flex;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.slider-card {
+    flex: 0 0 auto;
+    transition: opacity 0.3s ease-in-out;
+    width: 260px;
+    /* Adjust card width as needed */
+    height: 400px;
+    /* Adjust card height as needed */
+    margin: 0 10px;
+    margin-bottom: -30px;
+    /* Adjust the margin to control spacing between slider cards */
+}
+
+.posts-cards-laptop-detail {
+    font-size: 20px;
+    
+}
+
+.posts-cards img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.read-more {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main-main {
+    background-size: cover;
+}
+
+
+.my-box {
+    --bg-color: transparent;
+    /* Base background color */
+    background-color: var(--bg-color);
+    padding: 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+/* Change background color with gradient intensity on hover */
+.my-box:hover {
+    --hover-intensity: 30;
+    /* Adjust the hover intensity value */
+    --hover-bg-color: rgba(0, 0, 0, calc(var(--hover-intensity) * 0.01));
+    /* Intensity calculation */
+    background: linear-gradient(var(--hover-bg-color), var(--bg-color));
+}
+
+/* Footer */
+.footer-card {
+    width: 100%;
+    height: 70vh;
+    border: 1px solid hsl(216, 33%, 20%);
+    border-radius: 40px;
+    padding: 80px;
+}
+
+.footer-para {
+
+    font-size: 15px;
+    color: #7f92b0;
+
+
+}
+
+.footer-head {
+    font-size: 30px;
+    font-weight: bold;
+    color: #7f92b0;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid #7f92b0;
+    width: 50%;
+}
+
+.element-length {
+    width: 100%;
+}
+
+:placeholder {
+    color: #999;
+    /* Replace with your desired color value */
+}
+
+.btn {
+    border-radius: 6px;
+    padding: 10px 16px;
+    font-family: Noto Sans, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    border: 0;
+
+}
+
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+.hover-up {
+    background-image: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea);
+
+}
+
+.no-style-list {
+    list-style: none;
+    color: #7f92b0;
+}
+
+.text-md-start {
+    text-align: left;
+    /* Align text to the start (left) */
+}
+
+.horizontal-line {
+    border: 1px solid hsl(215, 26%, 38%);
+    margin-top: 30px;
+}
+
+.copyright-warning {
+    color: #7f92b0;
+}
+
+.follow-logos {
+    color: #7f92b0;
+}
+
+
+
+/* ----------------------------------------------------------use this to move the logos a little-------------------------------------------------------------------------- */
+
+.logo-container {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.2s ease;
+    /* Add a transition effect to the logo */
+}
+
+.logo {
+    width: 150px;
+    /* Adjust the width and height as needed */
+    height: 150px;
+}
+
+/* Apply the shift effect on hover */
+.logo-container:hover {
+    transform: translate(2px, 2px);
+    /* Shift the logo 5px down and 5px right */
+}
+
+.logo-container:hover .logo {
+    filter: brightness(3);
+    /* Apply a brightness increase for color change */
+}
+
+.unorder-list {
+    list-style: none;
+    line-height: 1.5;
+}
+
+.laptop-fearture{
+    margin-left: -40;
+    margin-right: -30;
+}
+.margin-top{
+    margin-top: -50;
+}
+
+
+.read-more-content {
+    max-height: 250px; /* Set the maximum height you want before truncation */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .read-more-link {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    padding: 5px 10px;
+  }
+  .color-light{
+    color: #ffffff;
+  }
+  .Artificial-tips-blogging{
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+  .Artificial-quotes{
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #7f92b0;
+    font-weight: bold;
+}
+  
+.slidding-cloth{
+    color: #6fb5b5;
+    font-size: 20px;
+}

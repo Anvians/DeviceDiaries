@@ -1,0 +1,30 @@
+.small-screen-heading{
+    margin-top: 40px;
+    font-size: 8vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+}
+.medium-screen-heading{
+    font-size: 15vh;
+    margin-top: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+}
+
+.card {
+    border: 1px solid #ddd;
+    
+    margin: 10px;
+    cursor: pointer;
+    
+    width: 20vh;
+  }
+  
+  .card-content {
+    display: none;
+  }
+  
+  .card.active .card-content {
+    display: block;
+  }
+  

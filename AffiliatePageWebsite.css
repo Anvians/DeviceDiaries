@@ -1,0 +1,107 @@
+
+
+/* Adjust the carousel dimensions and margin-right */
+#carouselExampleAutoplaying {
+    max-width: 900vh; /* Adjust the max-width as desired */
+    margin: auto;
+    margin-right: 20px;
+    /* Add margin-right to create space */
+}
+
+/* Adjust the image dimensions */
+.img-container {
+    width:100%; /* Adjust the width as needed */
+    height: 300px; 
+    margin-bottom: 100px;
+   
+    /* Adjust the height as needed */
+     /* Center the image container */
+}
+
+.img-size {
+    width: 100vh;
+    max-height: 300vh;
+   
+}
+.affiliate-bgrnd{
+    padding-top: 80px;
+}
+.Heading-company{
+    color: rgb(17, 118, 180);
+    margin-top: 80px;
+    
+}
+.col-md-3 {
+
+    
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 20px; /* Add border radius to the card */
+}
+
+.col-md-3:hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+body {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.dark-mode {
+    background-color: #212d3a;
+    color: white;
+}
+.container {
+   
+}
+.margin-see-more{
+    margin-left: 1200px;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* this Css is for toggle biutton */
+
+.toggle-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    
+    
+}
+.toggle-label {
+    margin-right: 10px;
+}
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background-color: #161f35;
+    border-radius: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.toggle-slider {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 26px;
+    height: 26px;
+    background-color: #2f5884;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.toggle-switch.active {
+    background-color:#1c334f ; /* Change background color when active */
+}
+.toggle-switch.active .toggle-slider {
+    transform: translateX(20px);
+    background-color: #d41d1d; /* Change color when active */
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+/* This is to slide the content */
+.container {
+    
+    padding: 20px;
+}
+
