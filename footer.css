@@ -1,0 +1,105 @@
+.footer-card {
+    width: 100%;
+    background-color: #1e2848;
+    height: 72vh;
+    border: 1px solid hsl(215, 34%, 15%);
+    border-radius: 40px;
+    padding: 80px;
+   
+}
+
+.footer-para {
+
+    font-size: 15px;
+    color: #7f92b0;
+
+
+}
+
+.footer-head {
+    font-size: 30px;
+    font-weight: bold;
+    color: #7f92b0;
+}
+
+.list-element{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+.conta-padding{
+    padding: 20px;
+}
+.horizontal-line{
+    border: solid #ffffff 1px;
+}
+.copyright-warning{
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.copyright-warning-anvians{
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Anvians{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.logo-container{
+    padding: 10px;
+}
+
+.horizontal-line {
+    border: 1px solid hsl(215, 15%, 33%) ;
+    
+}
+.lowest-elements{
+    display: flex;
+    align-self: center;
+    color: black;
+    align-items: center;
+    
+    margin-top: 30px;
+}
+.copyright-warning {
+    color: #7f92b0;
+    font-size: 14px;
+    
+}
+.copyright-warning-Anvian{
+    color: #7f92b0;
+    font-size: 14px;
+    text-align: end;
+    margin-bottom: 10px;
+}
+
+.no-style-list {
+    list-style: none;
+    color: #7f92b0;
+}
+.btn {
+    border-radius: 20px;
+    padding: 7px 16px;
+    font-family: Noto Sans, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    border: 0;
+    margin-left: 10px;
+
+}
+
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+.hover-up {
+    background-image: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea);
+
+}
