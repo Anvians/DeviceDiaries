@@ -1,0 +1,92 @@
+.main-container{
+    padding: 10px;
+}
+.mobile-image-new {
+    background-image: url('http://getwallpapers.com/wallpaper/full/4/e/3/176106.jpg');
+    background-size: cover;
+    background-position: center center;
+    /* Center the background image */
+    background-repeat: no-repeat;
+    
+    height: 60vh;
+    color: white;
+    margin-top: 80px;
+
+}
+.phones-trending-heading{
+    color: #6f7385;
+}
+.posts-cards {
+    margin-bottom: 20px;
+    margin: 10px;
+    border: 1px solid #222f43;
+    background-color: rgb(13, 21, 45);
+    border-radius: 30px !important;
+    overflow: hidden;
+
+    color: #7f92b0;
+    font-family: Noto Sans, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px
+}
+.html-image-size {
+    width: 100%;
+    /* Ensure the image fills the container width */
+    height: 300px;
+    border-radius: 20px;
+    /* Maintain aspect ratio */
+}
+.logo-container {
+    position: relative;
+    display: inline-block;
+   
+    transition: transform 0.2s ease;
+    /* Add a transition effect to the logo */
+}
+.html-image-size-phones{
+    width: 100%;
+    /* Ensure the image fills the container width */
+    height: 200px;
+    border-radius: 20px;
+    /* Maintain aspect ratio */
+}
+.card-heading{
+    font-size: 25px;
+}
+.card-para{
+    font-size: 15px;
+}
+/* ------------------------Back to the top------------------- */
+.back-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3a4270;
+    color: #fff;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.arrow-up::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-135deg);
+    width: 15px;
+    height: 15px;
+    border: solid #222325;
+    border-width: 0 3px 3px 0;
+}
+
+/* Add hover effect */
+.back-to-top-button:hover {
+    background-color: #273647;
+}
+
+.text-color{
+    color: #ffffff;
+}
