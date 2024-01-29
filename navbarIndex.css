@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    width: 100%;
+    margin-top: 0px;
+    
+}
+
+.dd-icon{
+    width: 80px;
+    height: 40px;
+    margin-left: 20px;
+}
+.Listing-navbar-container{
+    color: aliceblue;
+    display: flex;
+    margin-left: 50px;
+    align-self: flex-end;
+    margin-right: -80px;
+}
+.navbar-list{
+    padding: 10px;
+    color: #ffffff;
+}
+
+.button-input{
+    display: flex;
+    align-self: flex-end;
+}
+.Subscribe-Button{
+    background-color: aqua;
+    border-radius: 15px;
+    font-size: 15px;
+    color: rgb(17, 62, 102);
+    border: 0px;
+    font-weight: bold;
+}
+
+/* Toggle container */
+/* Toggle Container */
+.toggle-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust as needed */
+  }
+  
+  /* Toggle Label (optional) */
+  .toggle-label {
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+  /* Toggle Switch */
+  .toggle-switch {
+    width: 40px; /* Width of the switch */
+    height: 20px; /* Height of the switch */
+    background-color: #ccc; /* Default background color */
+    border-radius: 10px; /* Rounded corners for the switch */
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* Toggle Slider */
+  .toggle-slider {
+    width: 18px; /* Width of the slider */
+    height: 18px; /* Height of the slider */
+    background-color: #fff; /* Color of the slider */
+    border-radius: 50%; /* Rounded corners for the slider */
+    position: absolute;
+    top: 50%;
+    transform: translate(2px, -50%);
+    transition: transform 0.3s ease; /* Smooth transition for the slider movement */
+  }
+  
+  /* Active state for the Toggle Switch */
+  .toggle-switch.active {
+    background-color: #1d2b45; /* Change background color when active */
+  }
+  
+  /* Active state for the Toggle Slider */
+  .toggle-switch.active .toggle-slider {
+    transform: translate(20px, -50%); /* Move the slider to the right when active */
+  }
+  
+  /* Dark mode class for the body (optional) */
+  .dark-mode {
+    background-color: #1d2b45; /* Dark background color */
+    color: #fff; /* Light text color */
+  }
+  
