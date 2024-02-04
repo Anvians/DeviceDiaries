@@ -21,7 +21,7 @@
     margin: 10px;
     border: 1px solid #222f43;
     background-color: rgb(13, 21, 45);
-    border-radius: 30px !important;
+    border-radius: 20px !important;
     overflow: hidden;
 
     color: #7f92b0;
@@ -50,12 +50,17 @@
     height: 200px;
     border-radius: 20px;
     /* Maintain aspect ratio */
+    
 }
+.container-box{
+    display: flex;
+}
+
 .card-heading{
-    font-size: 25px;
+    font-size: 20px;
 }
 .card-para{
-    font-size: 15px;
+    font-size: 12px;
 }
 /* ------------------------Back to the top------------------- */
 .back-to-top-button {
