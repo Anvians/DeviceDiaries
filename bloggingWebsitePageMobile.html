@@ -26,66 +26,76 @@
 
     <link rel="stylesheet" href="bloggingWebsite.css">
     <link rel="stylesheet" href="bloggingWebsitePageMobile.css">
+    <link rel="stylesheet" href="navbarIndex.css">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <img src="https://see.fontimg.com/api/renderfont4/K7BaA/eyJyIjoiZnMiLCJoIjo5MywidyI6MTI1MCwiZnMiOjc0LCJmZ2MiOiIjRkZGRkZGIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/REQ/doggy-dog-world.png"
-                alt="Doggy Dog World Logo" class="dd-icon" />
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
-                <ul class="navbar-nav ml-auto pl-3 ">
-                    <li class="nav-item">
-                        <a class="nav-link active text-colors-navbar" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-colors-navbar" href="#">Mobile</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-colors-navbar" aria-current="page" href="#">Laptop/PC</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-colors-navbar" href="#">Gaming</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link text-colors-navbar" href="#">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-colors-navbar" aria-current="page" href="#">Shopping</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-colors-navbar" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            More
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <div>
-                        <input class="form-control search-navbar mr-sm-4" type="search" placeholder="Search"
-                            aria-label="Search">
-                        <button type="button" class="btn btn-linear hover-up float-md-end">Subscribe</button>
-
-                    </div>
-
-                </form>
-            </div>
+    <nav class="navbar">
+        <div class="navbar-icon-container">
+            <a href="index.html">
+                <img src="https://see.fontimg.com/api/renderfont4/K7BaA/eyJyIjoiZnMiLCJoIjo5MywidyI6MTI1MCwiZnMiOjc0LCJmZ2MiOiIjRkZGRkZGIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/REQ/doggy-dog-world.png"
+                    alt="Doggy Dog World Logo" class="dd-icon" />
+            </a>
         </div>
+        <div class="Listing-navbar-container">
+            <a href="index.html">
+                <div class="navbar-list">Home</div>
+            </a>
+            <a href="bloggingWebsitePhonePage2.html">
+                <div class="navbar-list">Phone</div>
+            </a>
+            <a href="bloggingWebsiteBlogPage.html">
+                <div class="navbar-list">Blogging</div>
+            </a>
+            <a href="BloggingNewsPage.html">
+                <div class="navbar-list">News</div>
+            </a>
+            <a href="AffiliatePageWebsite.html">
+                <div class="navbar-list">Shopping</div>
+            </a>
+            <a href="bloggingWebsitePhonePage2.html">
+                <div class="navbar-list">Phone</div>
+            </a>
+            <a href="bloggingWebsiteBlogPage.html">
+                <div class="navbar-list">Blogging</div>
+            </a>
+            <a href="BloggingNewsPage.html">
+                <div class="navbar-list">News</div>
+            </a>
+
+        </div>
+
+        <div class="button-input">
+            <input class="form-control search-navbar mr-sm-4" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-linear hover-up logo-container float-md-end">Subscribe</button>
+
+        </div>
+        <!-------------------------------------------------- Toggle container --------------------------------->
+        <div class="">
+            <div class="toggle-container">
+                <label class="toggle-label"></label>
+                <div class="toggle-switch" id="darkModeToggle">
+                    <div class="toggle-slider"></div>
+                </div>
+            </div>
+            <script>
+                const toggleSwitch = document.getElementById("darkModeToggle");
+                const body = document.body;
+
+                toggleSwitch.addEventListener("click", () => {
+                    toggleSwitch.classList.toggle("active");
+                    body.classList.toggle("dark-mode", darkModeToggle.checked);
+                });
+            </script>
+        </div>
+        <!-- -------------------------------------------------------------------------------------------- -->
+
+
     </nav>
+
+
+
     <div class="bgrnd-dark">
         <div class="container-fluid m-4 mt-5">
             <div class="row">

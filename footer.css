@@ -1,8 +1,11 @@
+.bgrnd-dark{
+    padding: 10px;
+}
 .footer-card {
     width: 100%;
-    background-color: #1e2848;
+    background-color: #000000;
     height: 72vh;
-    border: 1px solid hsl(215, 34%, 15%);
+    border: 1px solid hsl(216, 16%, 32%);
     border-radius: 40px;
     padding: 80px;
    

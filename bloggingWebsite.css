@@ -610,3 +610,7 @@ button:not(:disabled) {
     color: #6fb5b5;
     font-size: 20px;
 }
+.using-display{
+    display: flex;
+    
+}

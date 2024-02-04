@@ -28,119 +28,73 @@
     <link rel="stylesheet" href="tourismBlogging.css">
     <link rel="stylesheet" href="AffiliatePageWebsite.css">
     <link rel="stylesheet" href="bloggingWebsite.css">
+    <link rel="stylesheet" href="navbarIndex.css">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
+    <nav class="navbar">
+        <div class="navbar-icon-container">
             <a href="index.html">
                 <img src="https://see.fontimg.com/api/renderfont4/K7BaA/eyJyIjoiZnMiLCJoIjo5MywidyI6MTI1MCwiZnMiOjc0LCJmZ2MiOiIjRkZGRkZGIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/REQ/doggy-dog-world.png"
                     alt="Doggy Dog World Logo" class="dd-icon" />
             </a>
-            <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
-                <ul class="navbar-nav ml-auto pl-3 ">
-                    <li class="nav-item">
-                        <a class="nav-link active text-colors-navbar" aria-current="page"
-                            href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-colors-navbar" href="bloggingWebsitePhonePage2.html">Phone</a>
-                        <!-- Link to phone.html -->
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-colors-navbar" aria-current="page"
-                            href="bloggingWebsiteBlogPage.html">Blogging</a>
-                    </li>
-                   
-
-                    <li class="nav-item">
-                        <a class="nav-link text-colors-navbar" href="BloggingNewsPage.html">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-colors-navbar" aria-current="page"
-                            href="AffiliatePageWebsite.html">Shopping</a>
-                    </li>
-
-
-                    <!-- ------------------Drop Down - hide----------------------------------------- -->
-                    <li class="nav-item dropdown d-none">
-                        <a class="nav-link dropdown-toggle text-colors-navbar" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            More
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-
-                </ul>
-
-
-                <!-- ---------------------------------------------------------------- Toggle Container-Hide------------------------------------------------------------>
-                <div class="d-none">
-                    <div class="toggle-container">
-                        <label class="toggle-label"></label>
-                        <div class="toggle-switch" id="darkModeToggle">
-                            <div class="toggle-slider"></div>
-                        </div>
-                    </div>
-                    <script>
-                        const toggleSwitch = document.getElementById('darkModeToggle');
-                        const body = document.body;
-
-                        toggleSwitch.addEventListener('click', () => {
-                            toggleSwitch.classList.toggle('active');
-                            body.classList.toggle('dark-mode', darkModeToggle.checked);
-                        });
-                    </script>
-                </div>
-
-                <form class="form-inline my-2 my-lg-0">
-                    <div>
-                        <input class="form-control search-navbar mr-sm-4" type="search" placeholder="Search"
-                            aria-label="Search">
-                        <button type="button" class="btn btn-linear hover-up float-md-end">Subscribe</button>
-
-                    </div>
-
-                </form>
-            </div>
         </div>
+        <div class="Listing-navbar-container">
+            <a href="index.html">
+                <div class="navbar-list">Home</div>
+            </a>
+            <a href="bloggingWebsitePhonePage2.html">
+                <div class="navbar-list">Phone</div>
+            </a>
+            <a href="bloggingWebsiteBlogPage.html">
+                <div class="navbar-list">Blogging</div>
+            </a>
+            <a href="BloggingNewsPage.html">
+                <div class="navbar-list">News</div>
+            </a>
+            <a href="AffiliatePageWebsite.html">
+                <div class="navbar-list">Shopping</div>
+            </a>
+            <a href="bloggingWebsitePhonePage2.html">
+                <div class="navbar-list">Phone</div>
+            </a>
+            <a href="bloggingWebsiteBlogPage.html">
+                <div class="navbar-list">Blogging</div>
+            </a>
+            <a href="BloggingNewsPage.html">
+                <div class="navbar-list">News</div>
+            </a>
+
+        </div>
+
+        <div class="button-input">
+            <input class="form-control search-navbar mr-sm-4" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-linear hover-up logo-container float-md-end">Subscribe</button>
+
+        </div>
+        <!-------------------------------------------------- Toggle container --------------------------------->
+        <div class="">
+            <div class="toggle-container">
+                <label class="toggle-label"></label>
+                <div class="toggle-switch" id="darkModeToggle">
+                    <div class="toggle-slider"></div>
+                </div>
+            </div>
+            <script>
+                const toggleSwitch = document.getElementById("darkModeToggle");
+                const body = document.body;
+
+                toggleSwitch.addEventListener("click", () => {
+                    toggleSwitch.classList.toggle("active");
+                    body.classList.toggle("dark-mode", darkModeToggle.checked);
+                });
+            </script>
+        </div>
+        <!-- -------------------------------------------------------------------------------------------- -->
+
+
     </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -161,9 +115,6 @@
 
 
         </div>
-
-
-
 
 
         <script>
@@ -219,25 +170,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <div class="Travelling-tips-blogging">
             <h1 class="travelling-heading">Travelling Tips</h1>
             <p class="travelling-para">Tips to travel all over the world where you can enjoy being yourself free from
@@ -251,10 +183,10 @@
 
                     <div class="row">
                         <div class="col-12 col-md-6">
-                            <div class="posts-cards-bigger-one shadow">
+                            <div class="posts-cards-bigger-one shadow logo-container">
                                 <a href="tourismBlogging.html ">
                                     <div class="image-containers-bigger-one">
-                                        <img src="https://www.livemint.com/lm-img/img/2023/08/09/600x338/INDIA-SPACE--1_1691517728740_1691546551536.JPG"
+                                        <img src="https://d3d5bpai12ti8.cloudfront.net/wp-content/uploads/20200911134852/Rajasthan-Approves-New-Tourism-Policy-With-Focus-On-Lesser-known-Destinations.jpg"
                                             alt="Description of the image" class="html-image-size">
                                     </div>
                                 </a>
@@ -270,10 +202,10 @@
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
-                            <div class="posts-cards-bigger-one shadow">
+                            <div class="posts-cards-bigger-one shadow logo-container">
                                 <a href="BodyBuildingBlogging.html">
                                     <div class="image-containers-bigger-one">
-                                        <img src="https://spacenews.com/wp-content/uploads/2021/04/2pslvc4504-1536x1109.jpg"
+                                        <img src="https://images2.alphacoders.com/106/1069371.jpg"
                                             alt="Description of the image" class="html-image-size">
                                     </div>
                                 </a>
@@ -289,66 +221,63 @@
                         </div>
                     </div>
                     <section class="blog-posts">
-                        <h2 class="latest-blog-post">GAMING</h2>
-                        <div class="row">
-                            <div class="col-12 col-md-3">
-                                <div class="shadow posts-cards">
-                                    <div class="image-container">
-                                        <img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/09/corvo.jpg"
-                                            alt="Description of the image" class="html-image-size">
-                                    </div>
-                                    <div class="p-3 card-color">
-                                        <h3>Yoga</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <a href="#" class="read-more" data-title="Post 1 Title"
-                                            data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Read
-                                            More</a>
-                                    </div>
+                        <h2 class="latest-blog-post">Movies</h2>
+                        <div class="using-display">
+
+                            <div class="shadow posts-cards">
+                                <div class="image-container">
+                                    <img src="https://funpeep.com/wp-content/uploads/2015/11/pictures-of-dog.jpg"
+                                        alt="Description of the image" class="html-image-size">
+                                </div>
+                                <div class=" card-color">
+                                    <h3>Post 2 Title</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <a href="#" class="read-more" data-title="Post 2 Title"
+                                        data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Read
+                                        More</a>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-3">
-                                <div class="shadow posts-cards">
-                                    <div class="image-container">
-                                        <img src="https://funpeep.com/wp-content/uploads/2015/11/pictures-of-dog.jpg"
-                                            alt="Description of the image" class="html-image-size">
-                                    </div>
-                                    <div class="p-3 card-color">
-                                        <h3>Post 2 Title</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <a href="#" class="read-more" data-title="Post 2 Title"
-                                            data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Read
-                                            More</a>
-                                    </div>
+
+                            <div class="shadow posts-cards">
+                                <div class="image-container">
+                                    <img src="https://funpeep.com/wp-content/uploads/2015/11/pictures-of-dog.jpg"
+                                        alt="Description of the image" class="html-image-size">
+                                </div>
+                                <div class=" card-color">
+                                    <h3>Post 2 Title</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <a href="#" class="read-more" data-title="Post 2 Title"
+                                        data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Read
+                                        More</a>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-3">
-                                <div class="shadow posts-cards">
-                                    <div class="image-container">
-                                        <img src="http://getwallpapers.com/wallpaper/full/4/1/7/145827.jpg"
-                                            alt="Description of the image" class="html-image-size">
-                                    </div>
-                                    <div class="p-3 card-color">
-                                        <h3>Post 1 Title</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <a href="#" class="read-more" data-title="Post 1 Title"
-                                            data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Read
-                                            More</a>
-                                    </div>
+
+                            <div class="shadow posts-cards">
+                                <div class="image-container">
+                                    <img src="http://getwallpapers.com/wallpaper/full/4/1/7/145827.jpg"
+                                        alt="Description of the image" class="html-image-size">
+                                </div>
+                                <div class=" card-color">
+                                    <h3>Post 1 Title</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <a href="#" class="read-more" data-title="Post 1 Title"
+                                        data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Read
+                                        More</a>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-3">
-                                <div class="shadow posts-cards">
-                                    <div class="image-container">
-                                        <img src="https://funpeep.com/wp-content/uploads/2015/11/pictures-of-dog.jpg"
-                                            alt="Description of the image" class="html-image-size">
-                                    </div>
-                                    <div class="p-3 card-color">
-                                        <h3>Post 2 Title</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <a href="#" class="read-more" data-title="Post 2 Title"
-                                            data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Read
-                                            More</a>
-                                    </div>
+
+
+                            <div class="shadow posts-cards">
+                                <div class="image-container">
+                                    <img src="https://funpeep.com/wp-content/uploads/2015/11/pictures-of-dog.jpg"
+                                        alt="Description of the image" class="html-image-size">
+                                </div>
+                                <div class=" card-color">
+                                    <h3>Post 2 Title</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <a href="#" class="read-more" data-title="Post 2 Title"
+                                        data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Read
+                                        More</a>
                                 </div>
                             </div>
 
@@ -371,143 +300,159 @@
             <!------------------------------------------------------------------------------------------------------------------------------------------>
             <!--Dont touch this code, This code takes whole night and half day
 This is for Sliding card on page-->
-<div class="container-fluid">
-    <div class="d-none d-md-block">
+            <div class="container-fluid">
+                <div class="d-none d-md-block">
 
-        <div class="row">
-            <div class="d-flex flex-row ">
-                <div class="  slidder-goes-inside-container d-none d-md-block ">
-                    <div class=" shadow shadow-card-goes-inside col-lg-5">
-                        <h1>Hot Topics</h1>
-                        <p>Don't miss out these topics if you want something great</p>
-                    </div>
-                </div>
-                <div class=" bigger-shadow-container">
-                    <div class="col-lg-7">
-                        <div class="slider-wrapper">
-                            <div class="slider-container">
-                                <div class="col-12 col-md-1">
-                                    <div class="slider-card">
-                                        <div class=" posts-cards4 posts-cardsn">
-                                            <a href="https://amzn.to/3Yxq0Wk" target="_blank" rel="noopener" title="Visit Amazon Website">
-                                                <img src="https://m.media-amazon.com/images/I/61gBTKeHosL._UY879_.jpg"
-                                                    alt="" width="200" height="300">
-                                            </a>
-                                            <h1 class="slidding-cloth">Dennis Lingo Men's Solid Slim</h1>
-                                        </div> <!-- Slide 2 content -->
-                                    </div>
+                    <div class="row">
+                        <div class="d-flex flex-row ">
+                            <div class="  slidder-goes-inside-container d-none d-md-block ">
+                                <div class=" shadow shadow-card-goes-inside col-lg-5">
+                                    <h1>Hot Topics</h1>
+                                    <p>Don't miss out these topics if you want something great</p>
                                 </div>
+                            </div>
+                            <div class=" bigger-shadow-container">
+                                <div class="col-lg-7">
+                                    <div class="slider-wrapper">
+                                        <div class="slider-container">
+                                            <div class="col-12 col-md-1">
+                                                <div class="slider-card">
+                                                    <div class=" posts-cards4 posts-cardsn">
+                                                        <a href="https://amzn.to/3Yxq0Wk" target="_blank" rel="noopener"
+                                                            title="Visit Amazon Website">
+                                                            <img src="https://m.media-amazon.com/images/I/61gBTKeHosL._UY879_.jpg"
+                                                                alt="" width="200" height="300">
+                                                        </a>
+                                                        <h1 class="slidding-cloth">Dennis Lingo Men's Solid Slim</h1>
+                                                    </div> <!-- Slide 2 content -->
+                                                </div>
+                                            </div>
 
-                                <div class="col-12 col-md-1">
-                                    <div class="slider-card">
-                                        <div class="  posts-cardsn">
-                                            <a href="https://amzn.to/3OAC6JD" target="_blank"
-                                                rel="noopener" title="Visit Amazon Website">
-                                                <img src="https://m.media-amazon.com/images/I/713n+TxyfCL._UY879_.jpg"
-                                                    alt="" width="200" height="300">
-                                            </a>
-                                            <h1 class="slidding-cloth">Amazon Brand - Symbol Men's Regular Fit Polo Shirt</h1>
-                                        </div> <!-- Slide 2 content -->
-                                    </div>
-                                </div>
+                                            <div class="col-12 col-md-1">
+                                                <div class="slider-card">
+                                                    <div class="  posts-cardsn">
+                                                        <a href="https://amzn.to/3OAC6JD" target="_blank" rel="noopener"
+                                                            title="Visit Amazon Website">
+                                                            <img src="https://m.media-amazon.com/images/I/713n+TxyfCL._UY879_.jpg"
+                                                                alt="" width="200" height="300">
+                                                        </a>
+                                                        <h1 class="slidding-cloth">Amazon Brand - Symbol Men's Regular
+                                                            Fit Polo Shirt</h1>
+                                                    </div> <!-- Slide 2 content -->
+                                                </div>
+                                            </div>
 
-                                <div class="col-12 col-md-1">
-                                    <div class="slider-card">
-                                        <div class="  posts-cardsn">
-                                            <a href="https://amzn.to/445S1pi" target="_blank"
-                                                rel="noopener" title="Visit Amazon Website">
-                                                <img src="https://m.media-amazon.com/images/I/81X1sriXnAL._AC_SY240_.jpg"
-                                                    alt="" width="200" height="300">
-                                            </a>
-                                            <h1 class="slidding-cloth">Park Avenue Pure Luxury Soap Pack of 4 500gm</h1>
+                                            <div class="col-12 col-md-1">
+                                                <div class="slider-card">
+                                                    <div class="  posts-cardsn">
+                                                        <a href="https://amzn.to/445S1pi" target="_blank" rel="noopener"
+                                                            title="Visit Amazon Website">
+                                                            <img src="https://m.media-amazon.com/images/I/81X1sriXnAL._AC_SY240_.jpg"
+                                                                alt="" width="200" height="300">
+                                                        </a>
+                                                        <h1 class="slidding-cloth">Park Avenue Pure Luxury Soap Pack of
+                                                            4 500gm</h1>
 
-                                        </div> <!-- Slide 2 content -->
-                                    </div>
-                                </div>
+                                                    </div> <!-- Slide 2 content -->
+                                                </div>
+                                            </div>
 
-                                <div class="col-12 col-md-1">
-                                    <div class="slider-card">
-                                        <div class="  posts-cardsn">
-                                            <a href="https://amzn.to/4578GtE" target="_blank" title="Visit Amazon Website"
-                                            rel="noopener">
-                                            <img src="https://m.media-amazon.com/images/I/61iKv6-unXL._UY879_.jpg" alt=""  width="200" height="300">
-                                        </a>
-                                        <h1 class="slidding-cloth">LEOTUDE Women's Casual Printed Short Sleeve</h1>
-                                           
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-1">
-                                    <div class="slider-card">
-                                        <div class=" posts-cardsn ">
-                                            <a href="https://amzn.to/3YAQhTV" target="_blank" title="Visit Amazon Website"
-                                            rel="noopener">
-                                                <img src="https://m.media-amazon.com/images/I/71eUyax5McL._UX679_.jpg" alt="" width="200" height="300">
-                                            </a>
-                                            <h1 class="slidding-cloth">LEOTUDE Oversized Cotton Blend</h1>
-                                        </div>
-                                    </div>
-                                </div>
+                                            <div class="col-12 col-md-1">
+                                                <div class="slider-card">
+                                                    <div class="  posts-cardsn">
+                                                        <a href="https://amzn.to/4578GtE" target="_blank"
+                                                            title="Visit Amazon Website" rel="noopener">
+                                                            <img src="https://m.media-amazon.com/images/I/61iKv6-unXL._UY879_.jpg"
+                                                                alt="" width="200" height="300">
+                                                        </a>
+                                                        <h1 class="slidding-cloth">LEOTUDE Women's Casual Printed Short
+                                                            Sleeve</h1>
 
-                                <div class="col-12 col-md-1">
-                                    <div class="slider-card">
-                                        <div class="posts-cardsn">
-                                            <a href="https://amzn.to/3qnG80a" target="_blank" title="Visit Amazon Website"
-                                            rel="noopener">
-                                            <img src="https://m.media-amazon.com/images/I/71KVarW2b9L._UY879_.jpg" alt="" width="200" height="300">
-                                        </a>
-                                        <h1 class="slidding-cloth">Fabricorn Stylish Plain Green Long Sleeve</h1>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-1">
-                                    <div class="slider-card">
-                                        <div class=" posts-cardsn">
-                                            <a href="https://amzn.to/45rTnf6" target="_blank" title="Visit Amazon Website"
-                                            rel="noopener">
-                                                <img src="https://m.media-amazon.com/images/I/61jiY0UYqyL._UX679_.jpg" alt=""  width="200" height="300">
-                                            </a>
-                                            <h1 class="slidding-cloth">JUNEBERRY®® Cotton Half Sleeve</h1>
-                                           
-                                        </div> <!-- Slide 2 content -->
-                                    </div>
-                                </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-1">
+                                                <div class="slider-card">
+                                                    <div class=" posts-cardsn ">
+                                                        <a href="https://amzn.to/3YAQhTV" target="_blank"
+                                                            title="Visit Amazon Website" rel="noopener">
+                                                            <img src="https://m.media-amazon.com/images/I/71eUyax5McL._UX679_.jpg"
+                                                                alt="" width="200" height="300">
+                                                        </a>
+                                                        <h1 class="slidding-cloth">LEOTUDE Oversized Cotton Blend</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
 
-                                <div class="col-12 col-md-1">
-                                    <div class="slider-card">
-                                        <div class=" posts-cardsn">
-                                            <a href="https://amzn.to/458p7G8" target="_blank" title="Visit Amazon Website"
-                                            rel="noopener">
-                                                <img src="https://m.media-amazon.com/images/I/61IytOl+V7L._UY879_.jpg" alt=""   width="200" height="300">
-                                            </a>
-                                            <h1 class="slidding-cloth">LEOTUDE Cotton Blend Half Sleeve</h1>
-                                            
-                                        </div> <!-- Slide 2 content -->
-                                    </div>
-                                </div>
+                                            <div class="col-12 col-md-1">
+                                                <div class="slider-card">
+                                                    <div class="posts-cardsn">
+                                                        <a href="https://amzn.to/3qnG80a" target="_blank"
+                                                            title="Visit Amazon Website" rel="noopener">
+                                                            <img src="https://m.media-amazon.com/images/I/71KVarW2b9L._UY879_.jpg"
+                                                                alt="" width="200" height="300">
+                                                        </a>
+                                                        <h1 class="slidding-cloth">Fabricorn Stylish Plain Green Long
+                                                            Sleeve</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-1">
+                                                <div class="slider-card">
+                                                    <div class=" posts-cardsn">
+                                                        <a href="https://amzn.to/45rTnf6" target="_blank"
+                                                            title="Visit Amazon Website" rel="noopener">
+                                                            <img src="https://m.media-amazon.com/images/I/61jiY0UYqyL._UX679_.jpg"
+                                                                alt="" width="200" height="300">
+                                                        </a>
+                                                        <h1 class="slidding-cloth">JUNEBERRY®® Cotton Half Sleeve</h1>
 
-                                <div class="col-12 col-md-1">
-                                    <div class="slider-card">
-                                        <div class="posts-cardsn">
-                                            <a href="https://amzn.to/4471AEu" target="_blank" title="Visit Amazon Website"
-                                            rel="noopener">
-                                                <img src="https://m.media-amazon.com/images/I/61NzmmNu6nL._UY879_.jpg" alt="" width="200" height="300">
-                                            </a>
-                                            <h1 class="slidding-cloth">EYEBOGLER Men's Striped Regular fit T-Shirt </h1>
-                                            
-                                        </div> <!-- Slide 2 content -->
-                                    </div>
-                                </div>
+                                                    </div> <!-- Slide 2 content -->
+                                                </div>
+                                            </div>
 
-                                <div class="col-12 col-md-1">
-                                    <div class="slider-card">
-                                        <div class=" posts-cardsn">
-                                            <a href="https://amzn.to/3shZCDG" target="_blank" title="Visit Amazon Website"
-                                            rel="noopener">
-                                                <img src="https://m.media-amazon.com/images/I/61fJiq-FJqL._UX679_.jpg" alt="" width="200" height="300">
-                                            </a>
+                                            <div class="col-12 col-md-1">
+                                                <div class="slider-card">
+                                                    <div class=" posts-cardsn">
+                                                        <a href="https://amzn.to/458p7G8" target="_blank"
+                                                            title="Visit Amazon Website" rel="noopener">
+                                                            <img src="https://m.media-amazon.com/images/I/61IytOl+V7L._UY879_.jpg"
+                                                                alt="" width="200" height="300">
+                                                        </a>
+                                                        <h1 class="slidding-cloth">LEOTUDE Cotton Blend Half Sleeve</h1>
 
-                                            <h1 class="slidding-cloth">More Products</h1>
+                                                    </div> <!-- Slide 2 content -->
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12 col-md-1">
+                                                <div class="slider-card">
+                                                    <div class="posts-cardsn">
+                                                        <a href="https://amzn.to/4471AEu" target="_blank"
+                                                            title="Visit Amazon Website" rel="noopener">
+                                                            <img src="https://m.media-amazon.com/images/I/61NzmmNu6nL._UY879_.jpg"
+                                                                alt="" width="200" height="300">
+                                                        </a>
+                                                        <h1 class="slidding-cloth">EYEBOGLER Men's Striped Regular fit
+                                                            T-Shirt </h1>
+
+                                                    </div> <!-- Slide 2 content -->
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12 col-md-1">
+                                                <div class="slider-card">
+                                                    <div class=" posts-cardsn">
+                                                        <a href="https://amzn.to/3shZCDG" target="_blank"
+                                                            title="Visit Amazon Website" rel="noopener">
+                                                            <img src="https://m.media-amazon.com/images/I/61fJiq-FJqL._UX679_.jpg"
+                                                                alt="" width="200" height="300">
+                                                        </a>
+
+                                                        <h1 class="slidding-cloth">More Products</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -516,9 +461,6 @@ This is for Sliding card on page-->
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
 
             <script>
                 const sliderWrapper = document.querySelector('.slider-wrapper');

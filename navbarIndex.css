@@ -7,6 +7,13 @@ body{
     background-size: cover;
     width: 100%;
     margin-top: 0px;
+
+    background-color: #0f172a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     
 }
 
@@ -87,7 +94,7 @@ body{
   
   /* Dark mode class for the body (optional) */
   .dark-mode {
-    background-color: #1d2b45; /* Dark background color */
+    background-color: #010005; /* Dark background color */
     color: #fff; /* Light text color */
   }
   

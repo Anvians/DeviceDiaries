@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News API Integration</title>
+</head>
+<body>
+
+  <div id="newsContainer"></div>
+
+  <script>
+    // Replace 'YOUR_API_KEY' with your actual API key
+    const apiKey = 'pub_37645146362b12af8bc00c29b6806df634b40';
+
+    // Make a GET request to the news API
+    fetch(`https://newsdata.io/api/1/news?apikey=${apiKey}&q=todays%20news`)
+      .then(response => response.json())
+      .then(data => {
+        const newsData = data.results; // Assuming the "results" property contains the array
+        console.log(newsData)
+        // Process the news data and display it on the page
+        const newsContainer = document.getElementById('newsContainer');
+
+        // Assuming the newsData structure (adjust based on your API response)
+        newsData.forEach(article => {
+          const articleElement = document.createElement('div');
+          articleElement.innerHTML = `
+            <h2>${article.title}</h2>
+            <img src="${article.image_url}" alt="${article.title}" style="max-width: 100%;">
+            <p>${article.description}</p>
+          `;
+          newsContainer.appendChild(articleElement);
+        });
+      })
+      .catch(error => {
+        console.error('Error fetching news:', error.message);
+        // Handle error (display an error message on your website, for example)
+      });
+  </script>
+
+</body>
+</html>
