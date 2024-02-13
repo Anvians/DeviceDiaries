@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+   
+  }
+  h1 {
+    color: #333;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  p {
+    color: #474948;
+   
+  }
+  ol {
+    color: #505151;
+    font-size: 17px;
+  }
+
+.main-container{
+    background-size: cover;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+.main-heading{
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+.image-size-baby{
+    width: 600px;
+    height: 450px;
+}
