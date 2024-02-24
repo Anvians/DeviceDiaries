@@ -2,18 +2,41 @@
 .main-container{
     padding: 10px;
 }
-.mobile-image-new {
-    background-image: url('http://getwallpapers.com/wallpaper/full/4/e/3/176106.jpg');
-    background-size: cover;
-    background-position: center center;
-    /* Center the background image */
-    background-repeat: no-repeat;
-    
-    height: 60vh;
-    color: white;
-    margin-top: 80px;
-
+.background-colors{
+    background-color:#3a4270 ;
 }
+
+@media (min-width:768px){
+    .mobile-image-new {
+        background-image: url('http://getwallpapers.com/wallpaper/full/4/e/3/176106.jpg');
+        background-size: cover;
+        background-position: center center;
+        /* Center the background image */
+        background-repeat: no-repeat;
+        
+        height: 60vh;
+        color: white;
+        margin-top: 70px;
+
+    }
+}
+@media (max-width:768px){
+    .mobile-image-new {
+        background-image: url('http://getwallpapers.com/wallpaper/full/4/e/3/176106.jpg');
+        background-size: cover;
+        background-position: center center;
+        /* Center the background image */
+        background-repeat: no-repeat;
+        
+        height: 60vh;
+        color: white;
+        margin-top: 60px;
+
+    }
+}
+
+
+
 .phones-trending-heading{
     color: #6f7385;
 }

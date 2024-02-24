@@ -17,27 +17,44 @@ body{
     
 }
 
-.dd-icon{
-    width: 80px;
-    height: 40px;
-    margin-left: 20px;
+/* Media query */
+@media (max-width:768px){
+  .Listing-navbar-container{
+    display: none;
+  }
+  .button-input{
+    display: none;
+    
+  }
 }
-.Listing-navbar-container{
+
+@media (min-width:768px) {
+  .Listing-navbar-container{
     color: aliceblue;
     display: flex;
     margin-left: 50px;
     align-self: flex-end;
     margin-right: -80px;
+  }
+  .button-input{
+    display: flex;
+    align-self: flex-end;
+  }
 }
+
+
+.dd-icon{
+    width: 80px;
+    height: 40px;
+    margin-left: 20px;
+}
+
 .navbar-list{
     padding: 10px;
     color: #ffffff;
 }
 
-.button-input{
-    display: flex;
-    align-self: flex-end;
-}
+
 .Subscribe-Button{
     background-color: aqua;
     border-radius: 15px;
